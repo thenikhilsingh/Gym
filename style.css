@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 80px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav :nth-child(1){
+    margin: 15px;
+}
+
+nav ul li{
+    margin: 15px;
+}
+
+.main{
+    height: 700px;
+    width: 100%;
+    background-image: url(Assets/bkg.gif);
+    background-repeat: no-repeat;
+}
+
+.blackbox{
+    height: 620px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.34);
+}
