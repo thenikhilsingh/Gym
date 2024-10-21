@@ -39,3 +39,8 @@ nav ul li{
     width: 100%;
     background-color: rgba(0, 0, 0, 0.34);
 }
+
+form{
+    border: 2px solid white;
+    width: 50%;
+}
