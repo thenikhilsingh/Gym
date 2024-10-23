@@ -27,6 +27,11 @@ nav ul li{
     margin: 15px;
 }
 
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
 .main{
     height: 700px;
     width: 100%;
@@ -41,6 +46,31 @@ nav ul li{
 }
 
 form{
-    border: 2px solid white;
+    border: 2px solid rgb(0, 0, 0);
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 357px;
+    top: 100px;
+    background-color: rgba(0, 0, 0, 0.226);
+    color: rgb(231, 229, 229);
+}
+
+.ip{
+    background-color: rgba(0, 0, 0, 0.548);
+}
+
+#join-today{
+    height: 40px;
+    width: 100%;
+    position: relative;
+    left: 150px;
+    margin: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border: none;
 }
